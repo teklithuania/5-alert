@@ -46,5 +46,5 @@ function zmienSlide() {
     let plik = '<img src=\'slajdy/slajd'+numer+'.jpg\'>'
     document.getElementById('slider').innerHTML = plik;
 
-    setTimeout('zmienSlide()', 5000);
+    setTimeout('zmienSlide()', 3000);
 }
